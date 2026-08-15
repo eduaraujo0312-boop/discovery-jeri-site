@@ -1260,7 +1260,7 @@ section { padding: var(--section-v) var(--section-h); }
 }
 .hero-video-mobile { display: none; }
 @media (max-width: 768px) {
-  .hero-photo { display: none; }
+  .hero:has(.hero-video-mobile) .hero-photo { display: none; }
   .hero-video-mobile {
     display: block;
     position: absolute;
