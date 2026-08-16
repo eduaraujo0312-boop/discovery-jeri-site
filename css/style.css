@@ -1495,6 +1495,12 @@ section { padding: var(--section-v) var(--section-h); }
 }
 .hero-title-line { display: block; white-space: nowrap; }
 .hero-title-line + .hero-title-line { margin-top: -10px; }
+.htl-desktop { display: contents; }
+.htl-mobile { display: none; }
+@media (max-width: 768px) {
+  .htl-desktop { display: none; }
+  .htl-mobile { display: contents; }
+}
 .hero-split-title .accent-text {
   font-size: 1.12em;
   color: var(--accent);
