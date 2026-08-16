@@ -884,7 +884,6 @@ section { padding: var(--section-v) var(--section-h); }
 }
 @media (max-width: 640px) {
   .tour-tabs { grid-template-columns: 1fr 1fr; gap: 12px; }
-  .tour-tab { padding: 20px 14px; }
   .tour-detail-inner { gap: 24px; padding: 24px 20px; }
   .tour-detail-panel.open { max-height: 3200px; }
   .tdp-header { flex-direction: column; align-items: flex-start; gap: 12px; }
