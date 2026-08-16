@@ -2430,6 +2430,9 @@ section { padding: var(--section-v) var(--section-h); }
   background-position: center;
   z-index: 0;
 }
+@media (max-width: 768px) {
+  .final-cta-tall .final-cta-photo { background-position: 20% center; }
+}
 .final-cta-photo-overlay {
   position: absolute;
   inset: 0;
