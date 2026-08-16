@@ -3503,8 +3503,9 @@ a.footer-item:hover .footer-item-title { color: var(--accent); }
   .nav-links, .nav-cta-desktop { display: none; }
   .nav-hamburger { display: flex; }
 
+  .hero-content { text-align: center; }
   .hero-title { font-size: clamp(2.6rem, 12vw, 4rem); }
-  .hero-ctas  { flex-direction: column; }
+  .hero-ctas  { flex-direction: column; justify-content: center; }
 
   .trust-bar-inner { gap: 20px; }
 
