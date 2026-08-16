@@ -1539,10 +1539,11 @@ section { padding: var(--section-v) var(--section-h); }
   .hero-split-left .hero-eyebrow { align-self: center; }
   .hero-split-title {
     align-items: center;
-    font-size: clamp(1.9rem, 7.5vw, 2.4rem);
+    font-size: clamp(2.3rem, 8.5vw, 2.9rem);
   }
   .hero-split-left .hero-title-line { white-space: normal; }
   .hero-split-left .hero-subtitle {
+    font-size: clamp(1.2rem, 4vw, 1.5rem);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
