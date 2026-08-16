@@ -1582,6 +1582,7 @@ section { padding: var(--section-v) var(--section-h); }
   }
   .hero.hero-split .hero-split-left .hero-ctas { align-self: center; }
   .hero-split-left a.hero-link-hide-mobile { display: none; }
+  .hero-ctas-lower-mobile { --hero-ctas-mt: 190px; }
 }
 
 /* dots e barra de progresso */
