@@ -1238,7 +1238,7 @@ section { padding: var(--section-v) var(--section-h); }
   align-items: center;
   position: relative;
   overflow: hidden;
-  padding-top: var(--nav-height);
+  padding: var(--nav-height) 0 0;
   background: var(--bg-900);
 }
 .hero-bg {
@@ -1564,7 +1564,7 @@ section { padding: var(--section-v) var(--section-h); }
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: calc(var(--nav-height) + 24px) 16px 60px;
+    padding: calc(var(--nav-height) + 24px) 24px 60px;
   }
   .hero-split-left .hero-eyebrow { align-self: center; }
   .hero-split-title {
