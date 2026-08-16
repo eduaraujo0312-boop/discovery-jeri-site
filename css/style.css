@@ -1315,7 +1315,14 @@ section { padding: var(--section-v) var(--section-h); }
         rgba(0,0,0,0.55) 0%,
         rgba(0,0,0,0.30) 30%,
         rgba(0,0,0,0.40) 60%,
-        rgba(0,0,0,0.85) 100%
+        transparent 75%
+      ),
+      linear-gradient(
+        to bottom,
+        transparent 74%,
+        rgba(0,0,0,0.35) 82%,
+        rgba(0,0,0,0.80) 91%,
+        rgba(0,0,0,1) 100%
       );
   }
 }
