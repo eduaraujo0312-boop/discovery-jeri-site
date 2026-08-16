@@ -3505,6 +3505,7 @@ a.footer-item:hover .footer-item-title { color: var(--accent); }
 
   .hero-content { text-align: center; }
   .hero-title { font-size: clamp(2.6rem, 12vw, 4rem); }
+  .hero-content .hero-subtitle { font-size: clamp(1.4rem, 5vw, 1.75rem); margin-left: auto; margin-right: auto; }
   .hero-ctas  { flex-direction: column; justify-content: center; }
 
   .trust-bar-inner { gap: 20px; }
