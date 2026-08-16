@@ -3530,7 +3530,12 @@ a.footer-item:hover .footer-item-title { color: var(--accent); }
   .utv-highlight-body { grid-template-columns: 1fr; }
 
   .footer-top { grid-template-columns: 1fr; gap: 28px; }
-  .footer-bottom { flex-direction: column; text-align: center; }
+  .footer-col { text-align: center; }
+  .footer-links { align-items: center; }
+  .footer-link { justify-content: center; }
+  .footer-item { justify-content: center; }
+  .footer-item-text { align-items: center; text-align: center; }
+  .footer-bottom { flex-direction: column; align-items: center; text-align: center; }
 }
 
 @media (max-width: 540px) {
