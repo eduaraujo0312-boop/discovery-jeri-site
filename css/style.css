@@ -1567,7 +1567,7 @@ section { padding: var(--section-v) var(--section-h); }
     padding: calc(var(--nav-height) + 24px) 24px 60px;
   }
   .hero-split-left .hero-eyebrow { align-self: center; }
-  .hero-split-left.hero-split-left-top { justify-content: flex-start; }
+  .hero-split-left.hero-split-left-top { justify-content: flex-start; padding-top: calc(var(--nav-height) + 90px); }
   .hero-split-title {
     align-items: center;
     font-size: clamp(2.3rem, 8.5vw, 2.9rem);
