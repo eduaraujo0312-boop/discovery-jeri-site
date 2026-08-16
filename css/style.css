@@ -1580,6 +1580,7 @@ section { padding: var(--section-v) var(--section-h); }
     margin-right: auto;
   }
   .hero.hero-split .hero-split-left .hero-ctas { align-self: center; }
+  .hero-link-hide-mobile { display: none; }
 }
 
 /* dots e barra de progresso */
