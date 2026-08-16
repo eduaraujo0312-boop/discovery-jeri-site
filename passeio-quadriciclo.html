@@ -332,7 +332,7 @@
         </div>
 
         <!-- DETAIL PANEL -->
-        <div class="tour-detail-panel" id="tour-detail-panel" role="tabpanel" aria-live="polite">
+        <div class="tour-detail-panel tdp-compact-mobile" id="tour-detail-panel" role="tabpanel" aria-live="polite">
           <!-- conteúdo injetado pelo JavaScript -->
         </div>
 
@@ -995,6 +995,9 @@
         tab.querySelector('.tour-tab-arrow').textContent = '↑';
         tab.querySelector('.tour-tab-btn-label').textContent = 'Ocultar roteiro';
         activeKey = key;
+        if (window.matchMedia('(max-width: 768px)').matches) {
+          tab.closest('.tour-tab-wrap').insertAdjacentElement('afterend', panel);
+        }
         openPanel(key);
       });
     });
