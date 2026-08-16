@@ -1542,7 +1542,7 @@ section { padding: var(--section-v) var(--section-h); }
     font-size: clamp(2.3rem, 8.5vw, 2.9rem);
   }
   .hero-split-left .hero-title-line { white-space: normal; }
-  .hero-split-left .hero-title-line + .hero-title-line { margin-top: 2px; }
+  .hero-split-left .hero-title-line + .hero-title-line { margin-top: -4px; }
   .hero-split-left .hero-subtitle {
     font-size: clamp(1.2rem, 4vw, 1.5rem);
     text-align: center;
