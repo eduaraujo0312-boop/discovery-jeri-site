@@ -1598,6 +1598,7 @@ section { padding: var(--section-v) var(--section-h); }
   .hero-ctas-lower-mobile { --hero-ctas-mt: 235px; }
   .hero-ctas-lower-mobile.hero-ctas-lower-mobile-heli { --hero-ctas-mt: 70px; }
   .hero-subtitle.hero-subtitle-heli-mobile { --hero-subtitle-mt: 36px; }
+  .hero-photo-buggy { --hero-photo-pos: center center; }
 }
 
 /* dots e barra de progresso */
