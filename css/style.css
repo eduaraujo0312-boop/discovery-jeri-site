@@ -2468,7 +2468,8 @@ section { padding: var(--section-v) var(--section-h); }
 .final-cta .btn:hover .final-cta-arrow { transform: translateX(4px); }
 @media (max-width: 480px) {
   .final-cta-content > .btn {
-    width: 100%;
+    max-width: 100%;
+    padding: 14px 26px;
     white-space: normal;
     text-align: center;
   }
