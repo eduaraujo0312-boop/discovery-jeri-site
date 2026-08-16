@@ -2466,6 +2466,13 @@ section { padding: var(--section-v) var(--section-h); }
 }
 .final-cta-arrow { transition: transform var(--transition); }
 .final-cta .btn:hover .final-cta-arrow { transform: translateX(4px); }
+@media (max-width: 480px) {
+  .final-cta-content > .btn {
+    width: 100%;
+    white-space: normal;
+    text-align: center;
+  }
+}
 
 /* ============ FOOTER ============ */
 .footer {
