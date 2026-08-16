@@ -2276,7 +2276,6 @@ section { padding: var(--section-v) var(--section-h); }
   margin: 0 auto 48px;
   font-size: clamp(0.72rem, 2vw, 1rem);
   line-height: 1.6;
-  white-space: nowrap;
 }
 .assurance-section .assurance-sub .accent-text { color: var(--accent); }
 .assurance-grid {
