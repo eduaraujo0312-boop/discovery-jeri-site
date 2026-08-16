@@ -1528,6 +1528,28 @@ section { padding: var(--section-v) var(--section-h); }
   100% { opacity: 1; transform: translateY(0);     filter: blur(0); }
 }
 
+/* hero-split no mobile: texto centralizado e mais distribuído, em vez de colado no topo/esquerda */
+@media (max-width: 768px) {
+  .hero-split-left {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: calc(var(--nav-height) + 24px) 24px 60px;
+  }
+  .hero-split-left .hero-eyebrow { align-self: center; }
+  .hero-split-title {
+    align-items: center;
+    font-size: clamp(1.9rem, 7.5vw, 2.4rem);
+  }
+  .hero-split-left .hero-title-line { white-space: normal; }
+  .hero-split-left .hero-subtitle {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-split-left .hero-ctas { align-self: center; }
+}
+
 /* dots e barra de progresso */
 .hero-vehicle-dots {
   display: flex;
