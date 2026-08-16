@@ -1233,6 +1233,7 @@ section { padding: var(--section-v) var(--section-h); }
 /* ============ HERO (HOME) ============ */
 .hero {
   height: 100vh;
+  height: 100dvh;
   display: flex;
   align-items: center;
   position: relative;
