@@ -1312,9 +1312,9 @@ section { padding: var(--section-v) var(--section-h); }
     background:
       linear-gradient(
         to bottom,
-        rgba(0,0,0,0.55) 0%,
-        rgba(0,0,0,0.30) 30%,
-        rgba(0,0,0,0.40) 60%,
+        rgba(0,0,0,0.62) 0%,
+        rgba(0,0,0,0.38) 30%,
+        rgba(0,0,0,0.48) 60%,
         transparent 75%
       ),
       linear-gradient(
