@@ -894,6 +894,19 @@ section { padding: var(--section-v) var(--section-h); }
   .tour-tabs { grid-template-columns: 1fr; }
 }
 
+/* Painel de roteiro compacto no mobile (teste — página de UTV) */
+@media (max-width: 768px) {
+  .tdp-compact-mobile .tour-detail-inner { padding: 16px 14px; gap: 14px; }
+  .tdp-compact-mobile .tdp-stops-grid { grid-template-columns: repeat(3, 1fr); gap: 6px; }
+  .tdp-compact-mobile .tdp-title { font-size: 1.15rem; }
+  .tdp-compact-mobile .tdp-subtitle { font-size: 0.82rem; }
+  .tdp-compact-mobile .tdp-meta { gap: 6px; }
+  .tdp-compact-mobile .tdp-meta span { font-size: 0.66rem; padding: 4px 8px; }
+  .tdp-compact-mobile .tdp-infobar-notes { gap: 8px; }
+  .tdp-compact-mobile .tdp-infobar-desc { font-size: 0.76rem; }
+  .tdp-compact-mobile .tdp-infobar-label { font-size: 0.62rem; }
+}
+
 .tour-tabs.tour-tabs-3 { grid-template-columns: repeat(3, 1fr); }
 .tour-tabs.tour-tabs-3 .tour-tab-thumb { height: 240px; }
 @media (max-width: 1024px) {
