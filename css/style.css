@@ -1549,7 +1549,7 @@ section { padding: var(--section-v) var(--section-h); }
     margin-left: auto;
     margin-right: auto;
   }
-  .hero-split-left .hero-ctas { align-self: center; }
+  .hero.hero-split .hero-split-left .hero-ctas { align-self: center; }
 }
 
 /* dots e barra de progresso */
