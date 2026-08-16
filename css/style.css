@@ -156,7 +156,7 @@ p { color: var(--text-600); line-height: 1.75; }
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 var(--section-h);
+  padding: 0;
 }
 section { padding: var(--section-v) var(--section-h); }
 .section-alt { background: var(--bg-600); }
@@ -175,7 +175,6 @@ section { padding: var(--section-v) var(--section-h); }
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
-  width: 100%;
 }
 .tour-tab-wrap {
   position: relative;
