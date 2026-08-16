@@ -175,6 +175,7 @@ section { padding: var(--section-v) var(--section-h); }
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
+  width: 100%;
 }
 .tour-tab-wrap {
   position: relative;
