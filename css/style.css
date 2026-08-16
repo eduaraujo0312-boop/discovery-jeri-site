@@ -2159,6 +2159,11 @@ section { padding: var(--section-v) var(--section-h); }
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 640px) {
+  .testimonials-marquee-track .testimonial-card { flex: 0 0 86vw; height: 280px; padding: 22px; }
+  .faq-question { padding: 18px 16px; }
+  .faq-answer-inner { padding: 12px 16px 16px; }
+}
 .testimonials-marquee-track .testimonial-text {
   display: -webkit-box;
   -webkit-line-clamp: 6;
