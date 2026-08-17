@@ -1372,7 +1372,7 @@ section { padding: var(--section-v) var(--section-h); }
   text-align: left;
 }
 @media (min-width: 769px) {
-  .hero-content { margin-top: -60px; }
+  .hero-content { margin-top: -80px; }
 }
 .hero-eyebrow {
   display: inline-flex;
