@@ -1371,6 +1371,9 @@ section { padding: var(--section-v) var(--section-h); }
   padding: 80px clamp(24px, 5vw, 80px) 100px;
   text-align: left;
 }
+@media (min-width: 769px) {
+  .hero-content { margin-top: -60px; }
+}
 .hero-eyebrow {
   display: inline-flex;
   align-items: center;
