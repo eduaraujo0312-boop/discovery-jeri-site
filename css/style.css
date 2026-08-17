@@ -3591,7 +3591,7 @@ a.footer-item:hover .footer-item-title { color: var(--accent); }
   .hero-title { font-size: clamp(1.8rem, 9vw, 2.4rem); }
   .hero-content .hero-subtitle { font-size: clamp(1.4rem, 5vw, 1.75rem); max-width: none; margin-left: -10px; margin-right: -10px; margin-top: 115px; }
   .hero-ctas  { flex-direction: column; justify-content: center; }
-  .hero-ctas a.hero-link-hide-mobile { display: none; }
+  .hero-ctas a.hero-link-hide-mobile { visibility: hidden; pointer-events: none; }
 
   .trust-bar-inner { gap: 20px; }
 
