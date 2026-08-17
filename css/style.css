@@ -241,6 +241,9 @@ section { padding: var(--section-v) var(--section-h); }
   transition: transform 0.55s ease;
 }
 .tour-tab:hover .tour-tab-thumb img { transform: scale(1.06); }
+@media (max-width: 768px) {
+  .tour-thumb-barrinha-quadri-mobile { object-position: center 15%; }
+}
 .tour-tab-body {
   display: flex;
   flex-direction: column;
