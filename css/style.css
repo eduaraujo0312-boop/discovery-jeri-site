@@ -3597,10 +3597,10 @@ a.footer-item:hover .footer-item-title { color: var(--accent); }
   /* Hero da index: textos posicionados de forma absoluta, ancorados na altura total da hero (100dvh).
      Evita que o empilhamento de margens infle a altura do bloco centralizado e empurre o titulo pra fora da tela. */
   .hero-index { align-items: flex-start; }
-  .hero-index .hero-content { position: static; padding: 20px 12px 0; }
-  .hero-index .hero-subtitle-1 { position: absolute; left: 12px; right: 12px; top: 34%; margin: 0; }
-  .hero-index .hero-subtitle-2 { position: absolute; left: 12px; right: 12px; top: 62%; margin: 0; }
-  .hero-index .hero-ctas { position: absolute; left: 0; right: 0; top: 73%; margin: 0; }
+  .hero-index .hero-content { position: static; padding: 45px 12px 0; }
+  .hero-index .hero-subtitle-1 { position: absolute; left: 12px; right: 12px; top: 37%; margin: 0; }
+  .hero-index .hero-subtitle-2 { position: absolute; left: 12px; right: 12px; top: 65%; margin: 0; }
+  .hero-index .hero-ctas { position: absolute; left: 0; right: 0; top: 76%; margin: 0; }
 
   .trust-bar-inner { gap: 20px; }
 
