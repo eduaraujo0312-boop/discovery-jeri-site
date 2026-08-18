@@ -1618,7 +1618,8 @@ section { padding: var(--section-v) var(--section-h); }
   }
   .hero.hero-split .hero-split-left .hero-ctas { align-self: center; }
   .hero-split-left a.hero-link-hide-mobile { display: none; }
-  .hero-split-left .hero-subtitle-passeios { font-size: clamp(1rem, 4.4vw, 1.3rem); margin-top: 310px; }
+  .hero-split-left .hero-subtitle-passeios { font-size: clamp(1rem, 4.4vw, 1.3rem); margin-top: 330px; }
+  .hero-passeios .hero-split-left.hero-split-left-top { padding-top: calc(var(--nav-height) + 25px); }
   .hero-split-left a.hero-link-hide-mobile-passeios { visibility: hidden; pointer-events: none; }
   .hero-split-left .hero-ctas-passeios { margin-top: 14px; }
   .hero-passeios .hero-overlay {
