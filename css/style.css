@@ -1669,6 +1669,8 @@ section { padding: var(--section-v) var(--section-h); }
       linear-gradient(to right, rgba(6,8,14,0.82) 0%, rgba(6,8,14,0.5) 30%, rgba(6,8,14,0.15) 55%, transparent 72%),
       linear-gradient(to bottom, transparent 74%, rgba(0,0,0,0.35) 82%, rgba(0,0,0,0.80) 91%, rgba(0,0,0,1) 100%);
   }
+  .hero-transfer .hero-split-left { justify-content: flex-start; align-items: center; padding-top: 212px; }
+  .hero-split-left .hero-subtitle-transfer { margin-top: 45px; }
   .hero-ctas-lower-mobile { --hero-ctas-mt: 235px; }
   .hero-ctas-lower-mobile.hero-ctas-lower-mobile-heli { --hero-ctas-mt: 70px; }
   .hero-ctas-lower-mobile.hero-ctas-lower-mobile-buggy { --hero-ctas-mt: 40px; }
