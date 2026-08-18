@@ -1129,12 +1129,14 @@ section { padding: var(--section-v) var(--section-h); }
   position: fixed;
   top: var(--nav-height);
   left: 0; right: 0;
+  bottom: 0;
   background: var(--bg-900);
   border-bottom: 1px solid var(--accent-border);
-  padding: 24px 24px 72px;
+  padding: 24px;
   flex-direction: column;
   gap: 4px;
   z-index: 999;
+  overflow-y: auto;
 }
 .nav-mobile.open { display: flex; }
 .nav-mobile a {
