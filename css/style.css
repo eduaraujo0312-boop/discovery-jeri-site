@@ -1131,7 +1131,7 @@ section { padding: var(--section-v) var(--section-h); }
   left: 0; right: 0;
   background: var(--bg-900);
   border-bottom: 1px solid var(--accent-border);
-  padding: 24px 24px 44px;
+  padding: 24px 24px 72px;
   flex-direction: column;
   gap: 4px;
   z-index: 999;
