@@ -28,12 +28,6 @@
   font-style: normal;
   font-display: swap;
 }
-@font-face {
-  font-family: '28DaysLater';
-  src: url('../fonts/28DaysLater.ttf') format('truetype');
-  font-weight: 400;
-  font-display: swap;
-}
 
 /* ============ TOKEN SYSTEM ============ */
 :root {
@@ -57,7 +51,6 @@
 
   /* Tipografia */
   --font-display: 'Fredoka', system-ui, sans-serif;
-  --font-grunge:  '28DaysLater', sans-serif;
   --font-body:    'SupernettCn', 'Oswald', sans-serif;
   --font-chewy:   'Chewy', cursive;
 
