@@ -3589,7 +3589,7 @@ a.footer-item:hover .footer-item-title { color: var(--accent); }
   .nav-hamburger { display: flex; }
 
   .hero-content { text-align: center; padding-left: 12px; padding-right: 12px; }
-  .hero-title { font-size: clamp(1.8rem, 9vw, 2.4rem); }
+  .hero-title { font-size: clamp(1.8rem, 9vw, 2.4rem); text-shadow: 0 2px 6px rgba(0,0,0,0.85), 0 6px 24px rgba(0,0,0,0.75), 0 0 3px rgba(0,0,0,0.9); }
   .hero-content .hero-subtitle { font-size: clamp(1.05rem, 4.7vw, 1.45rem); max-width: none; }
   .hero-ctas  { flex-direction: column; justify-content: center; }
   .hero-ctas a.hero-link-hide-mobile { visibility: hidden; pointer-events: none; }
