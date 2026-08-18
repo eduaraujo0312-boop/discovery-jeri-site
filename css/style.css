@@ -1620,6 +1620,7 @@ section { padding: var(--section-v) var(--section-h); }
   .hero-split-left a.hero-link-hide-mobile { display: none; }
   .hero-split-left .hero-subtitle-passeios { font-size: clamp(1rem, 4.4vw, 1.3rem); margin-top: 310px; }
   .hero-split-left a.hero-link-hide-mobile-passeios { visibility: hidden; pointer-events: none; }
+  .hero-split-left .hero-ctas-passeios { margin-top: 14px; }
   .hero-ctas-lower-mobile { --hero-ctas-mt: 235px; }
   .hero-ctas-lower-mobile.hero-ctas-lower-mobile-heli { --hero-ctas-mt: 70px; }
   .hero-ctas-lower-mobile.hero-ctas-lower-mobile-buggy { --hero-ctas-mt: 40px; }
@@ -1695,6 +1696,7 @@ section { padding: var(--section-v) var(--section-h); }
   gap: 14px;
   flex-wrap: wrap;
 }
+.hero-ctas-passeios { margin-top: 32px; }
 .hero-split-left .hero-ctas {
   display: inline-flex;
   align-self: flex-start;
