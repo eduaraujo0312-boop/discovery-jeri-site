@@ -167,11 +167,11 @@
       Transfer
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
     </a>
-    <button type="button" class="nav-mobile-row nav-mobile-accordion-trigger" id="nav-mobile-passeios-trigger" aria-expanded="false" aria-controls="nav-mobile-passeios-panel">
+    <a href="passeios.html" class="nav-mobile-row">
       Passeios
-      <svg class="nav-mobile-caret" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-    </button>
-    <div class="nav-mobile-accordion" id="nav-mobile-passeios-panel">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </a>
+    <div class="nav-mobile-accordion">
       <div class="nav-mobile-accordion-inner">
         <a href="passeio-buggy.html" class="nav-mobile-sub">Passeio de Buggy<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a>
         <a href="passeio-quadriciclo.html" class="nav-mobile-sub">Passeio de Quadriciclo<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a>
@@ -671,17 +671,6 @@
         hamburger.setAttribute('aria-expanded', 'false');
       });
     });
-
-    // Accordion "Passeios" no menu mobile
-    const passeiosTrigger = document.getElementById('nav-mobile-passeios-trigger');
-    const passeiosPanel = document.getElementById('nav-mobile-passeios-panel');
-    if (passeiosTrigger && passeiosPanel) {
-      passeiosTrigger.addEventListener('click', () => {
-        const isOpen = passeiosPanel.classList.toggle('open');
-        passeiosTrigger.classList.toggle('open', isOpen);
-        passeiosTrigger.setAttribute('aria-expanded', isOpen);
-      });
-    }
 
     // FAQ accordion
     document.querySelectorAll('.faq-question').forEach(btn => {
