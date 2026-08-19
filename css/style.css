@@ -941,7 +941,17 @@ section { padding: var(--section-v) var(--section-h); }
   border-bottom-color: var(--accent-border);
 }
 .nav-header-shadow:not(.scrolled) {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.35) 55%, transparent 100%);
+  background: transparent;
+  border-bottom-color: transparent;
+}
+.nav-header-shadow:not(.scrolled)::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 170px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.45) 35%, rgba(0,0,0,0.18) 65%, transparent 100%);
+  pointer-events: none;
+  z-index: -1;
 }
 .nav-inner {
   max-width: var(--max-width);
