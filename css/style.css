@@ -1740,6 +1740,9 @@ section { padding: var(--section-v) var(--section-h); }
   flex-wrap: wrap;
 }
 .hero-ctas-passeios { margin-top: 32px; }
+@media (min-width: 769px) {
+  .hero-split-left .hero-ctas.hero-ctas-side-desktop { flex-direction: row; align-items: center; gap: 24px; }
+}
 .hero-split-left .hero-ctas {
   display: inline-flex;
   align-self: flex-start;
